@@ -10,22 +10,22 @@
   <div class="task-form">
     <div class="task-form__head">
       <h1>TODO</h1>
-      <input class="task-form__search" type="text">
+      <form action="">
+        <input class="task-form__search" type="text">
+      </form>
+      <div class="no-text hidden">Нет текста задачи</div>
+
     </div>
     <div class="task-form__pinned">
       <p class="task-form__pinned-title">Pinned :</p>
-      <div class="task-form__item"> <p>Какая то задача</p> <input class="task-form__pinned-checkbox" type="checkbox" name="1" id=""> </div>
-      <div class="task-form__item"> <p>Какая то задача</p> <input class="task-form__pinned-checkbox" type="checkbox" name="1" id=""> </div>
-      <div class="task-form__item"> <p>Какая то задача</p> <input class="task-form__pinned-checkbox" type="checkbox" name="1" id=""> </div>
-      <div class="task-form__item"> <p>Lorem, ipsum dolor.</p> <input class="task-form__pinned-checkbox" type="checkbox" name="1" id=""> </div>
+      <span class="task-form__pinned-empty hidden">"No pinned tasks"</span>
+      <!-- <div class="task-form__item"> <p>Какая то задача</p> <input class="task-form__pinned-checkbox" type="checkbox" checked > </div> -->
     </div>
     <div class="task-form__task-list">
       <p class="task-form__task-list-title">All Task :</p>
-      <div class="task-form__item"> <p>Какая то задача</p> <input class="task-form__pinned-checkbox" type="checkbox" name="1" id=""> </div>
-      <div class="task-form__item"> <p>Какая то задача</p> <input class="task-form__pinned-checkbox" type="checkbox" name="1" id=""> </div>
-      <div class="task-form__item"> <p>Какая то задача</p> <input class="task-form__pinned-checkbox" type="checkbox" name="1" id=""> </div>
-      <div class="task-form__item"> <p>Какая то задача</p> <input class="task-form__pinned-checkbox" type="checkbox" name="1" id=""> </div>
-      <div class="task-form__item"> <p>Какая то задача</p> <input class="task-form__pinned-checkbox" type="checkbox" name="1" id=""> </div>
+      <span class="task-form__filter-empty hidden">"No tasks found'</span>
+      <!-- <div class="task-form__item"> <p>Какая то задача</p> <input class="task-form__pinned-checkbox" type="checkbox" > </div>
+      <div class="task-form__item"> <p>Какая то задача</p> <input class="task-form__pinned-checkbox" type="checkbox" > </div> -->
     </div>
 
   </div>

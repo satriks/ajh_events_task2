@@ -1,8 +1,15 @@
 
 body {
-  color: #da1212;
-
+  color: #520909d1;
 }
+.hidden {
+  display: none;
+}
+.no-text {
+  color: red;
+  font-size: 20px;
+}
+
 .task-form {
   display: flex;
   width: 400px;
@@ -35,7 +42,6 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100%;
-
 }
 
 h1 {
@@ -47,13 +53,18 @@ h1 {
   height: 50px;
   border-radius: 10px;
   box-sizing: border-box;
+  padding-left: 10px;
 }
 
 
 
-input[type=checkbox]
-{
+input[type=checkbox] {
   transform: scale(2);
   padding: 10px;
   margin-right: 20px;
+}
+
+.task-form__pinned-empty,
+.task-form__filter-empty {
+  margin-left: 50px;
 }
